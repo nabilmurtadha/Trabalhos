@@ -13,6 +13,6 @@ Estudo de caso.
 
 Curso-R
 
-Faxina e limpeza de daods.
+*Faxina e limpeza de dados.
 
-1. [Mapa de roubo de celulares no Estado de São Paulo em Março de 2021](https://nabilmurtadha.github.io/myrepo/exercicio-de-limpeza-1--Roubo-de-celulares-.html)
+[1. Mapa de roubo de celulares no Estado de São Paulo em Março de 2021](https://nabilmurtadha.github.io/myrepo/exercicio-de-limpeza-1--Roubo-de-celulares-.html)
