@@ -11,3 +11,8 @@ Estudo de caso.
  1.  A semana 27 é sobre a base de dados do corpo de bombeiros do governo de Londres com registros de resgates a animais. [#Tidytuesday - Semana 27](https://nabilmurtadha.github.io/TidyTuesday/week_27.html)
  2.  A semana 28 é uma base de dados sobre a Indepenência dos países. [#Tidytuesday - Semana 28](https://nabilmurtadha.github.io/TidyTuesday/week_28.html)
 
+Curso-R
+
+Faxina e limpeza de daods.
+
+1. [Mapa de roubo de celulares no Estado de São Paulo em Março de 2021](https://nabilmurtadha.github.io/myrepo/faxina_de_dados.nb.html)
