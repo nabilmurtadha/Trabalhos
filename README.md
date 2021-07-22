@@ -10,6 +10,7 @@ Estudo de caso.
 
  1.  A semana 27 é sobre a base de dados do corpo de bombeiros do governo de Londres com registros de resgates a animais. [#Tidytuesday - Semana 27](https://nabilmurtadha.github.io/TidyTuesday/week_27.html)
  2.  A semana 28 é uma base de dados sobre a Indepenência dos países. [#Tidytuesday - Semana 28](https://nabilmurtadha.github.io/TidyTuesday/week_28.html)
+ 3.  A semana 29 trás uma base sobre os episódios do Scooby-Doo, fiz uma análise sobre as ações dos personagens. [#Tidytuesday - Semana 29](https://nabilmurtadha.github.io/TidyTuesday/week_29.html) 
 
 Curso-R
 
