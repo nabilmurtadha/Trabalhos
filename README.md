@@ -6,6 +6,8 @@ Estudo de caso.
 
 2. [Promoção da Shopee e a reação do Twitter](https://nabilmurtadha.github.io/TidyTuesday/promoção-shopee.html)
 
+3. [Lendo a PNAD discreta de 2014](https://nabilmurtadha.github.io/Trabalhos/atividade1): Atividade 1 do curso Laboratório de Econometria, Prof: Ana C. Zoghbi. 
+
 #Tidytuesday
 
  1.  A semana 27 é sobre a base de dados do corpo de bombeiros do governo de Londres com registros de resgates a animais. [#Tidytuesday - Semana 27](https://nabilmurtadha.github.io/TidyTuesday/week_27.html)
