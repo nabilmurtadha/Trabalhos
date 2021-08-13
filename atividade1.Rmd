@@ -1,0 +1,251 @@
+---
+title: "PNAD 2014"
+subtitle: "Atividade 1 - Laboratório de Econometria"
+author: "Nabil Murtadha & Professora Ana C. Zoghbi"
+date: "08/2021"
+output:
+  prettydoc::html_pretty:
+    theme: tactile
+    highlight: github
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# PNAD 2014
+
+O código completo dessa apresentação em `R Markdown` se encontra no meu [GITHUB](https://github.com/nabilmurtadha/Trabalhos)
+
+### PESSOAS 
+
+* **Carregando pacotes necessários**
+
+```{r pacotes, message=FALSE, results='hide', warning=FALSE}
+
+#install.packages(c("data.table",
+#                   "tidyverse",
+#                   "Hmisc",
+#                   "ggplot2",
+#                   "geobr"))
+
+library(data.table)
+library(tidyverse)
+library(Hmisc)
+library(ggplot2)
+library(geobr)
+
+```
+
+
+* **Lendo o arquivo `PES2014.txt`.**
+
+Primeiramente escolhemos a variaveis e salvamos suas posições na base de dados para a identificação. 
+```{r limites, message=FALSE, warning=FALSE}
+
+# posicoes no arquivo txt.
+var_limites_pes <-list(beg = c(1, 5,  5, 13, 16, 18, 27, 30, 680, 683, 684, 702, 768),
+                       end = c(4, 6, 12, 15, 17, 18, 29, 30, 681, 683, 685, 713, 772))
+
+```
+
+* Nome e descrição
+
+Criando vetores de nome e descrição para as variáveis de interesse.
+```{r label, message=FALSE, warning=FALSE}
+# nomear variaveis
+nomes_pes <- c("V0101", "uf", "V0102", "V0103", "V0301", "V0302", "V8005", "V0401", 
+           "V4803","V4805", "V4706", "V4718", "V4729")
+
+#colnames(pnad2005_pes) <- nomes
+
+# descricao variveis
+label_pes <- c(V0101 = "ano de referencia",
+               uf = "uf",
+               V0102 = "numero de controle", 
+               V0103 = "numero de serie", 
+               V0301 = "numero de ordem", 
+               V0302 = "sexo", 
+               V8005 = "idade do morador", 
+               V0401 = "condicao na unidade domiciliar", 
+               V4803 = "anos de estudo", 
+               V4805 = "condicao de ocupacao na semana de referencia", 
+               V4706 = "posicao da ocupacao no trabalho principal da semana de referencia", 
+               V4718 = "valor do rendimento mensal do trabalho principal", 
+               V4729 = "peso amostral")
+
+```
+
+
+* **Utilizando a função `fread` do pacote `data.table` para a leitura do arquivo `PES2014.txt`.**
+
+```{r fread, message=FALSE, warning=FALSE}
+pnad2014_pes <- fread("atividade 1/PES2014.txt", header = FALSE, sep = "",
+                      na.strings = c("NA","N/A","", " "),
+                  skip = 0L, stringsAsFactors = FALSE, strip.white = TRUE
+)[, lapply(1:(length(var_limites_pes$beg)), 
+           function(ii){ as.numeric(substr(V1, var_limites_pes$beg[ii],
+                                           var_limites_pes$end[ii]))}
+)]
+
+# verificando a natureza dos dados
+glimpse(pnad2014_pes)
+
+```
+
+
+* **Atribuindo os vetores nome e descrição para as variáveis selecionadas**
+
+Gerando tabela com as primeiras observações da base para visualização inicial dos dados.
+```{r table pessoas, message=FALSE, warning=FALSE}
+
+colnames(pnad2014_pes) <- nomes_pes
+Hmisc::label(pnad2014_pes) <- as.list(label_pes[match(names(pnad2014_pes), names(label_pes))])
+
+# Ordenando a base
+pnad2014_pes <- pnad2014_pes %>% arrange(V0102,V0103)
+
+# gerando tabela com 50 obs.
+pnad2014_pes %>%
+  head(n = 50L) %>%
+  DT::datatable(extensions = "FixedColumns",
+                options = list(
+                  scrollX = TRUE)
+                )
+
+```
+
+
+### DOMICÍLIOS
+
+* **Aplicando os mesmos passos para a base de Domicílios**
+
+Aplicando o mesmo passo a passo feito na base `PES2014.txt` em `DOM2014.txt`.
+
+```{r domicilios, message=FALSE, warning=FALSE}
+
+# Posição das variaveis
+var_limites_dom <-  list(beg = c( 5, 13, 194),
+                         end = c(12, 15, 205))
+
+
+# lendo o arquivo txt
+pnad2014_dom = fread("atividade 1/DOM2014.txt", header = FALSE, sep = "",
+                       na.strings = c("NA","N/A","", " "),
+                       skip = 0L, stringsAsFactors = FALSE, strip.white = TRUE
+)[, lapply(1:(length(var_limites_dom$beg)),
+           function(ii) as.numeric(substr(V1,var_limites_dom$beg[ii],
+                                          var_limites_dom$end[ii]))
+)
+]
+
+# Renomeando variaveis
+nomes <- c("V0102", "V0103", "V4621")
+colnames(pnad2014_dom) <- nomes
+
+# Renomear "v4621" para  "rendimentodom"
+pnad2014_dom <- pnad2014_dom %>% rename(rendimentdom = V4621)
+
+# Ordenando por (V0102 and V0103)
+pnad2014_dom <- pnad2014_dom %>% arrange(V0102,V0103)
+
+
+```
+
+
+### JOIN
+
+* **Juntando as bases.**
+```{r merge, message=FALSE, warning=FALSE}
+pnad2014 <- pnad2014_pes %>% merge(pnad2014_dom, by = c("V0102","V0103"))
+
+# Tabelando a nova base
+
+pnad2014 %>%
+  head(n = 50L) %>%
+  DT::datatable(extensions = "FixedColumns",
+                options = list(
+                  scrollX = TRUE)
+                )
+
+```
+
+
+# Análise descritiva e Gráficos
+
+Primeiramente uma análise descritiva simples da `PNAD 2014`, comparo a média de escolaridade entre os jovens e os chefes de domicílios onde jovem reside.
+
+```{r descritiva, message=FALSE, warning=FALSE}
+
+# Criando a variavel - Escolaridade do chefe do domicilio
+pnad2014 %>%
+  # ordenando para que a primeira linha da domicilio seja o chefe
+  arrange(V0102,V0103,V0301) %>%
+  # agrupando a base por domicilio
+  group_by(V0102,V0103) %>%
+  # variavel nova
+  mutate(
+    # replicando a primeira observação(chefe) para o resto do domicilio
+    esc_chefe = first(V4803)
+  ) %>% 
+  # desagrupando 
+  ungroup() %>%
+  # filtrando para jovens entre 16 a 29 anos
+  filter(V8005 %in% c(16:29)) %>%
+  # summarise com peso
+  summarise(Escolaridade_do_Jovem = wtd.mean(V4803, weights = V4729),
+            Escolaridade_do_Chefe = wtd.mean(esc_chefe, weights = V4729)) %>%
+  knitr::kable()
+```
+
+
+* **Grafico de Rendimento**
+
+Utilizaremos o pacote `geobr` por possuir uma ampla base de dados dos mapas do brasil e suas coordenadas.
+
+```{r mapa, message=FALSE, warning=FALSE}
+
+# criando a rendimento médio por UF com peso.
+rendimento_uf <- pnad2014 %>%
+  #filtrando rendimento > 200000
+  filter(rendimentdom < 200000) %>%
+  #mutate
+  mutate(code_state = as.double(uf)) %>%
+  #agrupando or UF
+  group_by(code_state) %>%
+  # summarise
+  summarise(media_rendimento = wtd.mean(rendimentdom, weights = V4729)) %>%
+  # desagrupando
+  ungroup()
+```
+
+```{r geobrjoin, message=FALSE, warning=FALSE, results='hide'}
+# carregando mapa do Brasil com limitações por Estado
+states <- read_state() %>%
+  # merge com states
+  left_join(rendimento_uf, by = "code_state")
+```
+
+```{r plot, fig.align='center', warning=FALSE, message=FALSE}
+
+# plot
+ggplot()+
+  geom_sf(data = states, aes(fill = media_rendimento), color = NA)+
+  scale_fill_continuous(name = "Rendimento Domiciliar",breaks = seq(250,2000,250),
+                        limits = c(500,2070))+
+  labs(title = "Média do rendimento domiciliar per capita",
+       subtitle = "PNAD 2014")+
+  theme_minimal()+
+  theme(panel.grid = element_blank(),
+        axis.text.x = element_blank(),
+        axis.text.y = element_blank())
+
+```
+
+
+  
+
+
+
+
+
