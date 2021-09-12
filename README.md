@@ -8,6 +8,8 @@ Estudo de caso.
 
 3. [Lendo a PNAD discreta de 2014](https://nabilmurtadha.github.io/Trabalhos/atividade1): Atividade 1 do curso Laboratório de Econometria, Prof: Ana C. Zoghbi. 
 
+4. [Dashboard - Enem 2019 candidatos do Distrito Federal](https://nabilmurtadha.shinyapps.io/EnemDF/) : A partir do questionário socioeducativo faço uma comparação entre algumas características e o rendimento médio na prova.
+
 #Tidytuesday
 
  1.  A semana 27 é sobre a base de dados do corpo de bombeiros do governo de Londres com registros de resgates a animais. [#Tidytuesday - Semana 27](https://nabilmurtadha.github.io/TidyTuesday/week_27.html)
