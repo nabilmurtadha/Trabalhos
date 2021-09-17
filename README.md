@@ -6,7 +6,7 @@ Estudo de caso.
 
 2. [Lendo a PNAD discreta de 2014](https://nabilmurtadha.github.io/Trabalhos/atividade1): Atividade 1 do curso Laboratório de Econometria, Prof: Ana C. Zoghbi. 
 
-3. [Carteira de ações e modelo CAPM](https://nabilmurtadha.github.io/Trabalhos/carteira1): Relatório onde procuro facilitar sua reprodutibilidade, é possível replicar os códigos para outras composições de carteira, assim como atualizar as tabelas, gráficos e modelo ao fim de cada pregão. 
+3. [Carteira de ações e modelo CAPM](https://nabilmurtadha.github.io/Trabalhos/carteira1): Relatório onde procuro facilitar a reprodutibilidade, é possível replicar os códigos para outras composições de carteira, assim como atualizar as tabelas, gráficos e modelo ao fim de cada pregão. 
 
 4. [Dashboard - Enem 2019 candidatos do Distrito Federal](https://nabilmurtadha.shinyapps.io/EnemDF/) : A partir do questionário socioeducativo faço uma comparação entre algumas características e o rendimento médio na prova.
 
