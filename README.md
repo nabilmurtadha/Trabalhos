@@ -10,7 +10,7 @@ Estudo de caso.
 
 4. [Dashboard - Enem 2019 candidatos do Distrito Federal](https://nabilmurtadha.shinyapps.io/EnemDF/) : A partir do questionário socioeducativo faço uma comparação entre algumas características e o rendimento médio na prova.
 
-5. [Programação Linear com o pacote lpSolver](https://nabilmurtadha.github.io/Trabalhos/jovem-brasileiro): Exemplo de exercício de programação linear feito no R.
+5. [Programação Linear com o pacote lpSolver](https://nabilmurtadha.github.io/Trabalhos/prog_linear): Exemplo de exercício de programação linear feito no R.
 
 #Tidytuesday
 
