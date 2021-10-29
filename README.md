@@ -10,6 +10,8 @@ Estudo de caso.
 
 4. [Dashboard - Enem 2019 candidatos do Distrito Federal](https://nabilmurtadha.shinyapps.io/EnemDF/) : A partir do questionário socioeducativo faço uma comparação entre algumas características e o rendimento médio na prova.
 
+5. [Programação Linear com o pacote lpSolver](https://nabilmurtadha.github.io/Trabalhos/jovem-brasileiro): Exemplo de exercício de programação linear feito no R.
+
 #Tidytuesday
 
  1.  A semana 27 é sobre a base de dados do corpo de bombeiros do governo de Londres com registros de resgates a animais. [#Tidytuesday - Semana 27](https://nabilmurtadha.github.io/TidyTuesday/week_27.html)
