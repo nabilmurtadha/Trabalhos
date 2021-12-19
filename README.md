@@ -20,7 +20,7 @@ Estudo de caso.
  
  3.  A semana 29 trás uma base sobre os episódios do Scooby-Doo, fiz uma análise sobre as ações dos personagens. [#Tidytuesday - Semana 29](https://nabilmurtadha.github.io/TidyTuesday/week_29.html) 
 
-4. A semama 31 entra no clima olímpico e trás informações sobre os participantes de todas as edições anteriores. Fiz uma análise sobre os esportes que mais trouxe medalha para o Brasil. [#Tidytuesday - Semana 31](https://nabilmurtadha.github.io/TidyTuesday/week_31.html) 
+4. A semama 31 entra no clima olímpico e trás informações sobre os participantes de todas as edições anteriores. Fiz uma análise sobre os esportes que mais trouxeram medalha para o Brasil. [#Tidytuesday - Semana 31](https://nabilmurtadha.github.io/TidyTuesday/week_31.html) 
 
 Curso-R
 
