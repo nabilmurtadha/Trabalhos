@@ -12,6 +12,8 @@ Estudo de caso.
 
 5. [Programação Linear com o pacote lpSolver](https://nabilmurtadha.github.io/Trabalhos/prog_linear): Exemplo de exercício de programação linear feito no R.
 
+6. [Estatística Descritiva PCD - RAIS 2020](https://nabilmurtadha.github.io/Trabalhos/rais2020-PCD.html): Trabalho feito na minha função de Analista de Pesquisa na Federação Nacional das Apaes. É um trabalho de estatística descritiva da população com deficiência no mercado de trabalho formal do ano de 2020.
+
 #Tidytuesday
 
  1.  A semana 27 é sobre a base de dados do corpo de bombeiros do governo de Londres com registros de resgates a animais. [#Tidytuesday - Semana 27](https://nabilmurtadha.github.io/TidyTuesday/week_27.html)
