@@ -1,6 +1,8 @@
 ## Bem vindo ao meu site
 
-Estudo de caso.
+[Currículo](https://github.com/nabilmurtadha/Trabalhos/blob/7f8c95e582fd6c13a1e40ee9692f8bc3bd13aa2d/Curr%C3%ADculo%20-%20Nabil%20Murtadha.pdf)  - *Última atualização 25/06/22*
+
+Atividades:
 
  1. [Jovem do Brasil de 2015](https://nabilmurtadha.github.io/Trabalhos/jovem-brasileiro): Análise descritiva dos jovens no Brasil de 2015 de acordo com sua situação em relação ao mercado e trabalho e aos estudos.
 
