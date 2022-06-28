@@ -36,8 +36,8 @@
 
 ### 2022
 
-1. A semana 26 trás dados sobre a diferença salarial de gêneros nas empresas do Reino Unido. Fiz uma breve comparação salarial por tamanho da empresa, empresas de porte medianas costumam ter uma diferença maior. [#Tidytuesday - Semana 26 - 2022](https://nabilmurtadha.github.io/TidyTuesday/week_26_22.html) 
-![week31](https://github.com/nabilmurtadha/Trabalhos/blob/main/week26_22.png?raw=true)
+1. A semana 26 trás dados sobre a diferença salarial de gêneros nas empresas do Reino Unido. Fiz uma breve comparação salarial por tamanho da empresa, empresas de porte medianas costumam ter uma diferença maior. [#Tidytuesday - Semana 26 - 2022](https://nabilmurtadha.github.io/Trabalhos/week_26_22.html) 
+![week26](https://github.com/nabilmurtadha/Trabalhos/blob/main/week26_22.png?raw=true)
 
 
 ## Curso-R
