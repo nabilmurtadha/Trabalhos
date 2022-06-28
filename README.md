@@ -34,6 +34,12 @@
 4. A semama 31 entra no clima olímpico e trás informações sobre os participantes de todas as edições anteriores. Fiz uma análise sobre os esportes que mais trouxeram medalha para o Brasil. [#Tidytuesday - Semana 31 - 2021](https://nabilmurtadha.github.io/TidyTuesday/week_31.html) 
 ![week31](https://github.com/nabilmurtadha/Trabalhos/blob/main/week31.png?raw=true)
 
+### 2022
+
+1. A semana 26 trás dados sobre a diferença salarial de gêneros nas empresas do Reino Unido. Fiz uma breve comparação salarial por tamanho da empresa, empresas de porte medianas costumam ter uma diferença maior. [#Tidytuesday - Semana 26 - 2022](https://nabilmurtadha.github.io/TidyTuesday/week_26_22.html) 
+![week31](https://github.com/nabilmurtadha/Trabalhos/blob/main/week26_22.png?raw=true)
+
+
 ## Curso-R
 
 *Faxina e limpeza de dados*.
