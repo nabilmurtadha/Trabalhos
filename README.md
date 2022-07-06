@@ -18,6 +18,8 @@
 
 7. [Análise temporal PCD - CAGED](https://nabilmurtadha.github.io/Trabalhos/serietempo_novocaged.html): Trabalho feito na minha função de Analista de Pesquisa na Federação Nacional das Apaes. Uma breve análise do impacto da pandemia no emprego formal das pessoas com deficiência.
 
+8. [Apresentação na 128° Reunião do Conade](https://rpubs.com/apaebrasil/trabalhopcd): A [convite](https://sei.mdh.gov.br/sei/controlador_externo.php?acao=documento_conferir&codigo_verificador=3016861&codigo_crc=DFE16E80&hash_download=0e0cf3ee7a3b210e99b937666c3c569af6e2b1c6fa12173674d35e315650362d5cd4e4a303c540bb4a714a053d92c5fb6ca43f4cd1adf95d71b06655a9388028&visualizacao=1&id_orgao_acesso_externo=0) do Conselho Nacional da Pessoa com Deficiência apresentei sobre o formal do mercado de trabalho da pessoa com deficiência durante o meu cargo de Analista de Pesquisa na Fenapaes.
+
 ## Tidytuesday
 
 ### 2021
