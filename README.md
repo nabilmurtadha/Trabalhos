@@ -41,6 +41,10 @@
 1. A semana 26 trás dados sobre a diferença salarial de gêneros nas empresas do Reino Unido. Fiz uma breve comparação salarial por tamanho da empresa, empresas de porte medianas costumam ter uma diferença maior. [#Tidytuesday - Semana 26 - 2022](https://nabilmurtadha.github.io/Trabalhos/week_26_22.html) 
 ![week26](https://github.com/nabilmurtadha/Trabalhos/blob/main/week26_22.png?raw=true)
 
+2. A semana 27 revela uma base dos preços de alugueis da cidade de San Francisco. Faço a evolução percentual dos preços para cada cidade dando destaque para as cinco cidades que mais valorizaram ao longo dos anos. [#Tidytuesday - Semana 27 - 2022](https://github.com/nabilmurtadha/Trabalhos/blob/main/week_27_22.R)
+![week27](https://github.com/nabilmurtadha/Trabalhos/blob/main/week27_22.png?raw=true)
+
+https://github.com/nabilmurtadha/Trabalhos/blob/main/week_27_22.R
 
 ## Curso-R
 
