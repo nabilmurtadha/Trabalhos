@@ -44,8 +44,6 @@
 2. A semana 27 revela uma base dos preços de alugueis da cidade de San Francisco. Faço a evolução percentual dos preços para cada cidade dando destaque para as cinco cidades que mais valorizaram ao longo dos anos. [#Tidytuesday - Semana 27 - 2022](https://github.com/nabilmurtadha/Trabalhos/blob/main/week_27_22.R)
 ![week27](https://github.com/nabilmurtadha/Trabalhos/blob/main/week_27_22.png?raw=true)
 
-https://github.com/nabilmurtadha/Trabalhos/blob/main/week_27_22.R
-
 ## Curso-R
 
 *Faxina e limpeza de dados*.
