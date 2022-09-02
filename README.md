@@ -1,6 +1,6 @@
 # Bem vindo ao meu site
 
-[Currículo](https://github.com/nabilmurtadha/Trabalhos/blob/7f8c95e582fd6c13a1e40ee9692f8bc3bd13aa2d/Curr%C3%ADculo%20-%20Nabil%20Murtadha.pdf)  - *Última atualização 25/06/22*
+[Currículo](https://github.com/nabilmurtadha/Trabalhos/blob/7f8c95e582fd6c13a1e40ee9692f8bc3bd13aa2d/Curr%C3%ADculo%20-%20Nabil%20Murtadha.pdf)  - *Última atualização 25/07/22*
 
 ## Atividades:
 
