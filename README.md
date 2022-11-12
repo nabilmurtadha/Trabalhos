@@ -22,7 +22,7 @@
 
 9. [Retratos Sociais 2021 PCD](https://www.ipe.df.gov.br/wp-content/uploads/2022/11/RETRATOS-SOCIAIS-PCD-SUMARIO.pdf): Durante meu cargo como pesquisador no IPE-DF (CODEPLAN) participei do estudo sobre pessoas com deficiência do Distrito Federal a partir dos dados da [PDAD 2021](https://www.ipe.df.gov.br/microdados-pdad-2021/). O estudo discute resultados sobre mercado de trabalho, educação, mobilidade urbana e infraestrutura domiciliar da população com deficiência no Distrito Federal, além de traçar seu perfil socioeconômico.
 
-![distributionage](https://github.com/nabilmurtadha/Trabalhos/blob/main/pcd_codeplan.png)
+![distributionage](https://github.com/nabilmurtadha/Trabalhos/blob/main/pcd_codeplan.png?raw=true)
 
 ## Tidytuesday
 
