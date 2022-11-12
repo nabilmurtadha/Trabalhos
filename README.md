@@ -23,7 +23,7 @@
 9. [Retratos Sociais 2021 PCD](https://www.ipe.df.gov.br/wp-content/uploads/2022/11/RETRATOS-SOCIAIS-PCD-SUMARIO.pdf): Durante meu cargo como pesquisador no IPE-DF (CODEPLAN) participei do estudo sobre pessoas com deficiência do Distrito Federal a partir dos dados da [PDAD 2021](https://www.ipe.df.gov.br/microdados-pdad-2021/). O estudo discute resultados sobre mercado de trabalho, educação, mobilidade urbana e infraestrutura domiciliar da população com deficiência no Distrito Federal, além de traçar seu perfil socioeconômico.
 ![distributionage](https://github.com/nabilmurtadha/Trabalhos/blob/main/pcd_codeplan.png?raw=true)
 
-10. [Preços de aluguel de apartamentos - Plano Piloto](https://nabilmurtadha.github.io/Trabalhos/visualização_alugueis.html): Faço uma breve análise dos preços do aluguel do plano piloto, desde a raspagem dos dados até a criação da vizualização dos dados.
+10. [Preços de aluguel de apartamento - Plano Piloto](https://nabilmurtadha.github.io/Trabalhos/visualização_alugueis.html): Faço uma breve análise dos preços do aluguel do plano piloto, desde a raspagem dos dados até a criação da vizualização dos dados.
 ![boxplot_alug](https://github.com/nabilmurtadha/Trabalhos/blob/main/boxplot_alugueis1.png?raw=true)
 
 ## Tidytuesday
