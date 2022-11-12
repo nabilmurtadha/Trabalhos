@@ -4,7 +4,7 @@
 
 ## Atividades:
 
- 1. [Jovem do Brasil de 2015](https://nabilmurtadha.github.io/Trabalhos/jovem-brasileiro): Análise descritiva dos jovens no Brasil de 2015 de acordo com sua situação em relação ao mercado e trabalho e aos estudos.
+ 1. [Jovens do Brasil de 2015](https://nabilmurtadha.github.io/Trabalhos/jovem-brasileiro): Análise descritiva dos jovens no Brasil de 2015 de acordo com sua situação em relação ao mercado e trabalho e aos estudos.
 
 2. [Lendo a PNAD discreta de 2014](https://nabilmurtadha.github.io/Trabalhos/atividade1): Atividade 1 do curso Laboratório de Econometria, Prof: Ana C. Zoghbi. 
 
@@ -21,7 +21,6 @@
 8. [Apresentação na 128° Reunião do Conade](https://rpubs.com/apaebrasil/trabalhopcd): A [convite](https://sei.mdh.gov.br/sei/controlador_externo.php?acao=documento_conferir&codigo_verificador=3016861&codigo_crc=DFE16E80&hash_download=0e0cf3ee7a3b210e99b937666c3c569af6e2b1c6fa12173674d35e315650362d5cd4e4a303c540bb4a714a053d92c5fb6ca43f4cd1adf95d71b06655a9388028&visualizacao=1&id_orgao_acesso_externo=0) do Conselho Nacional da Pessoa com Deficiência apresentei sobre o mercado formal de trabalho da pessoa com deficiência durante o meu cargo de Analista de Pesquisa na Fenapaes. Nesta apresentação utilizo o [Quarto](https://quarto.org/).
 
 9. [Retratos Sociais 2021 PCD](https://www.ipe.df.gov.br/wp-content/uploads/2022/11/RETRATOS-SOCIAIS-PCD-SUMARIO.pdf): Durante meu cargo como pesquisador no IPE-DF (CODEPLAN) participei do estudo sobre pessoas com deficiência do Distrito Federal a partir dos dados da [PDAD 2021](https://www.ipe.df.gov.br/microdados-pdad-2021/). O estudo discute resultados sobre mercado de trabalho, educação, mobilidade urbana e infraestrutura domiciliar da população com deficiência no Distrito Federal, além de traçar seu perfil socioeconômico.
-
 ![distributionage](https://github.com/nabilmurtadha/Trabalhos/blob/main/pcd_codeplan.png?raw=true)
 
 ## Tidytuesday
