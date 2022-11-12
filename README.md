@@ -24,7 +24,7 @@
 ![distributionage](https://github.com/nabilmurtadha/Trabalhos/blob/main/pcd_codeplan.png?raw=true)
 
 10. [Preços de aluguel de apartamentos - Plano Piloto](https://nabilmurtadha.github.io/Trabalhos/visualização_alugueis.html): Faço uma breve análise dos preços do aluguel do plano piloto, desde a raspagem dos dados até a criação da vizualização dos dados.
-![boxplot_alug](https://github.com/nabilmurtadha/Trabalhos/blob/main/boxplot_alugueis.png?raw=true)
+![boxplot_alug](https://github.com/nabilmurtadha/Trabalhos/blob/main/boxplot_alugueis1.png?raw=true)
 
 ## Tidytuesday
 
